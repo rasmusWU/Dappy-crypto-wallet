@@ -1,0 +1,28 @@
+.mainContent {
+    width: 100vw;
+    &__register {
+        margin: 6em 0 0 10%;
+        width: 40%;
+    }
+    &__header {
+        font-size: 3.4em;
+        color: #1F2431;
+    }
+    &__text {
+        font-size: 1.5em;
+        color: #82899B;
+        margin-right: 55%;
+
+    }
+    &__button {
+        margin-top: 2em;
+        background-color: #315EFB;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 50px;
+        color: white;
+        font-size: 1em;
+        padding: 1em 5em;
+        font-weight: 200;
+    }
+}

@@ -1,0 +1,43 @@
+.textSection {
+    height: fit-content;
+    margin: 1em;
+    padding: 2em;
+    background-color: #FAFCFF;
+    color: #82899B;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    height: min-content;
+    align-items: center;
+    & h3 {
+        width: 80%;
+        font-size: 1.5em;
+        font-weight: 700;
+        color: #1F2431;
+    }
+    & svg {
+        margin: 5em 0;
+    }
+    & p {
+        width: 80%;
+        font-size: 1.1em;
+    }
+    &__1 {
+        grid-area: textarea1;
+    }
+    &__2 {
+        grid-area: textarea2;
+    }
+    &__3 {
+        grid-area: textarea3;
+    }
+    &__4 {
+        grid-area: textarea4;
+    }
+    &__5 {
+        grid-area: textarea5;
+    }
+    &__6 {
+        grid-area: textarea6;
+    }
+}
